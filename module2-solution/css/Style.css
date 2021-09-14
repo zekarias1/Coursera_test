@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 30px;
+  background-color: #F7E7CE;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
   text-align: center;
 }
 h2 {
@@ -20,6 +22,9 @@ h2 {
 a:hover, a:active { 
 	background-color: silver;
 	color: purple;
+}
+.container-fluid {
+  padding: 5px;
 }
 #car1{
 	background-color: #C19A6B;
@@ -69,6 +74,10 @@ p {
   color: white;
   clear: right;
  
+}
+#car3 p {
+  color: black;
+
 }
 
 /* Simple Responsive Framework. */
