@@ -32,6 +32,7 @@ a:hover, a:active {
   margin-left: auto;
   position: relative;
   overflow: auto;
+  margin-bottom: 10px;
 }
 
 #car2{
@@ -40,6 +41,7 @@ a:hover, a:active {
   margin-left: auto;
   position: relative;
   overflow: auto;
+  margin-bottom: 10px;
   }
  
  #car3 {
@@ -48,6 +50,7 @@ a:hover, a:active {
   margin-left: auto;
   position: relative;
   overflow: auto;
+  margin-bottom: 10px;
 }
 #section1{
 	background-color: #98FF98;
@@ -180,8 +183,8 @@ p {
 @media (max-width: 767px) {
   .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     float: left;
-    border-left: 50px solid white;
-    border-right: 50px solid white;
+    border-left: 40px solid white;
+    border-right: 40px solid white;
     border-bottom: 20px solid white;
    
    
