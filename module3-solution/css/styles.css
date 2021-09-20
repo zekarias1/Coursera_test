@@ -1,0 +1,148 @@
+body{
+      font-size: 16px;
+      color: #fff;
+      background-color:#2B65EC;
+      font-family: 'Oxygen', sans-serif;
+}
+/*** Header ***/
+#header-nav {
+    background-color: #BCC6CC;
+    border-radius: 0;
+    border: 0;
+    height: auto;
+    border: 2px solid black;
+}
+.container{
+    margin-left: 0;
+    position: relative;
+    
+}
+
+
+
+.container .navbar-brand span{
+
+   /* position: absolute; */ 
+    top: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    font-size: 2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+.navbar-brand a:hover , .navbar-brand a:active{
+    text-decoration: none;
+}
+#nav-list{
+   margin-top: 8px;
+}
+#nav-list{
+    color: #BCC6CC;
+    margin-top: 0;
+    margin-bottom: 0;
+    /*text-align: center;*/
+    background-color: #7BCCB5/*#C9C0BB;*/
+
+}
+#nav-list a:hover{
+   /* background: #f8f6f6;*/
+   background: #47b2ff;
+
+}
+#nav-list a span {
+    font-size: 1.6em;
+    
+}
+.container button.navbar-toggle:hover , .container button.navbar-toggle:active{
+    background-color: #47b2ff;
+}
+.container button.navbar-toggle, .container .icon-bar{
+    border: 1px solid #2B65EC;
+
+}
+
+.container button.navbar-toggle{
+    clear: both;
+    margin-top: -35px;
+    margin-right: 15px;
+}
+
+/******* END HEADER *********/
+
+
+/********Main Content*******/
+h1 {
+    font-weight: bold;
+}
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+#main-header{
+    margin-bottom: 30px;
+}
+.container-fluid .jumbotron {
+    position: relative;
+    padding: 10px 15px 10px 15px;
+}
+
+.container-fluid .jumbotron h2{
+    margin-top: 0;
+    color: #566D7E;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.container-fluid .jumbotron p{
+    color: #002525;
+}
+/********** Extra small devices only **********/
+
+
+/*   Main Content   */
+
+@media(max-width: 767px) {
+    .container-fluid .row .jumbotron{
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+   
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+.container{
+    height: fit-content;
+    margin-right: 15px;
+}
+.container .navbar-brand span{
+  font-size: 1.8em;
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  
+  .container{
+    height: 70px;
+
+}
+
+  /* End Header */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.container{
+    height: 70px;
+}
+
+
+}
+
+
